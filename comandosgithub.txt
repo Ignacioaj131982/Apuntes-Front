@@ -1,0 +1,27 @@
+Debemos inicializar un repositorio. 
+Para esto, ejecutemos git init en la carpeta que queramos conectar el repositorio.
+Luego tenemos que indicar al repositorio nuestros usuario ejecutando dos comandos:
+git config user.name “mi usuario” (escribimos nuestro nombre de usuario).
+git config user.email “miCorreo@email.com” (escribimos nuestra dirección de correo).
+
+git remote add origin https://github.com/Ignacioaj131982/Pagina-lemon-pie     -esto sirve para sincronizar el repositorio local con el remoto-
+
+para verificar que el comando anterior se ejecuto bien: git remote -v
+de esto tiene que salir lo siguiente en la terminal: 
+origin  https://github.com/Ignacioaj131982/Pagina-lemon-pie (fetch)
+origin  https://github.com/Ignacioaj131982/Pagina-lemon-pie (push)
+
+enviar los archivos de mi computadora:
+git push origin main
+
+ver cuantos commits hice:
+git log
+IMPORTANTE!!!
+Antes de subir todos los archivos a github DEBEN ESTAR PREVIAMENTE COMITEADOS
+
+hacer una copia exacta de los archivos existentes en la nube -CLONAR POR PRIMERA VEZ LOS ARCHIVOS-:
+git clone https://github.com/Ignacioaj131982/Pagina-lemon-pie
+ESTO SE HACE UNA SOLA VEZ Y CUANDO NO TENGAS ESOS ARCHIVOS EN LA PC!
+
+Cuando queres trabajar con los archivos actualizados en la nube -PARA BAJAR ARCHIVOS Y MODIFICACIONES CADA VEZ QUE LO NECESITES-:
+git pull origin main
