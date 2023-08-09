@@ -4,6 +4,9 @@ Luego tenemos que indicar al repositorio nuestros usuario ejecutando dos comando
 git config user.name “mi usuario” (escribimos nuestro nombre de usuario).
 git config user.email “miCorreo@email.com” (escribimos nuestra dirección de correo).
 
+PARA NO TENER QUE HACER LO ANTERIOR CONSTANTEMENTE EJECUTAR:
+git config --global user.name "mi usuario" (escribimos nuestro nombre de usuario).
+git config --global user.email “miCorreo@email.com” (escribimos nuestra dirección de correo).
 git remote add origin https://github.com/Ignacioaj131982/Pagina-lemon-pie     -esto sirve para sincronizar el repositorio local con el remoto-
 
 para verificar que el comando anterior se ejecuto bien: git remote -v
@@ -25,3 +28,5 @@ ESTO SE HACE UNA SOLA VEZ Y CUANDO NO TENGAS ESOS ARCHIVOS EN LA PC!
 
 Cuando queres trabajar con los archivos actualizados en la nube -PARA BAJAR ARCHIVOS Y MODIFICACIONES CADA VEZ QUE LO NECESITES-:
 git pull origin main
+
+
