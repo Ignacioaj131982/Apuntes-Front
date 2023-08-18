@@ -30,3 +30,19 @@ Cuando queres trabajar con los archivos actualizados en la nube -PARA BAJAR ARCH
 git pull origin main
 
 
+FRENTE A ESTE ERROR!
+ ! [rejected]        main -> main (non-fast-forward)
+error: failed to push some refs to 'https://github.com/Ignacioaj131982/apuntes-introduccion-informatica.git'
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. Integrate the remote changes (e.g.
+hint: 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+If the GitHub repo has seen new commits pushed to it, while you were working locally, I would advise using:
+
+git pull --rebase
+git push
+The full syntax is:
+
+git pull --rebase origin main
+git push origin main
+
